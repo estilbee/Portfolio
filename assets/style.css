@@ -1,12 +1,39 @@
-.header {
+header{
     display: flex;
 }
 
-.header {
-    font-size: 50px;
+header{
+    font-size: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif
 }
 
-img {
-    max-width: 100%;
-    height: auto;}
+header img {
+    width: 100%;
+    height: auto;
+    padding-left: 34px
+    
+}
+
+header figure {
+    overflow: hidden;
+    height: 422px
+}
+    
+
+h1{
+    font-family: Georgia;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #c3f25f;
+    width: 60px;
+    background: transparent;
+}
+
+h2{
+    text-align: right
+}
+
+h3{
+    text-align: right;
+}
