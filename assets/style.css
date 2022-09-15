@@ -2,6 +2,9 @@ header{
     display: flex;
 }
 
+@media screen and (max-width: 992px) {
+    header img }
+
 header{
     font-size: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif
@@ -10,7 +13,6 @@ header{
 header img {
     width: 100%;
     height: auto;
-    padding-left: 34px
     
 }
 
