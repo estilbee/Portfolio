@@ -2,7 +2,7 @@ header{
     display: flex;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1857px) {
     header img }
 
 header{
@@ -36,6 +36,20 @@ h2{
     text-align: right
 }
 
+h2 {
+    background-color: #eb945b;
+}
+
+.body {
+    background-color:#eb945b;
+}
+
 h3{
     text-align: right;
+}
+
+aside {
+    background-color: #c3f25f;
+    position: absolute;
+    flex:  
 }
