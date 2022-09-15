@@ -2,8 +2,6 @@ header{
     display: flex;
 }
 
-@media screen and (max-width: 1857px) {
-    header img }
 
 header{
     font-size: 25px;
@@ -18,7 +16,7 @@ header img {
 
 header figure {
     overflow: hidden;
-    height: 422px
+    height: auto
 }
     
 
@@ -50,6 +48,5 @@ h3{
 
 aside {
     background-color: #c3f25f;
-    position: absolute;
-    flex:  
+    position: absolute; 
 }
