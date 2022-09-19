@@ -2,7 +2,6 @@ header{
     display: flex;
 }
 
-
 header{
     font-size: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif
@@ -16,9 +15,19 @@ header img {
 
 header figure {
     overflow: hidden;
-    height: auto
+    height: auto;
+    background-image: url("./images/header2.jpg");
+    height: 400px;
+    width: 100vw;
+    background-size: cover;
+    background-repeat:no-repeat;
 }
-    
+
+.mainimage {
+    width: 1000px;
+    height: 100vh;
+}
+
 
 h1{
     font-family: Georgia;
@@ -40,6 +49,7 @@ h2{
 
 .body {
     background-color:#eb945b;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .recentwork {
@@ -82,4 +92,39 @@ footer p a {
     color: grey;
     padding-left: 50px;
     padding-top: 5.5px;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding-left: 10px;
+    
+}
+
+nav ul li a {
+    color:#eb945b;
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-end;
+   
+}
+
+@media screen and (max-width:760px) {
+
+    
+}
+
+@media screen and (max-width:380px) {
+ .body {
+    font-size:smaller;
+ }
+ .images {
+    display: flex;
+    flex-direction: column;
+ }
+
+    
 }
