@@ -91,10 +91,10 @@ a img {
 }
 
 .images{
-    display:block;
-    /* position: relative; */
-    margin-left: auto;
-    margin-right:auto;
+    display:flex;
+    flex-wrap: wrap;
+    max-width: 98vw;
+    justify-content: center;
 }
 
 .imagetext{
@@ -114,9 +114,52 @@ a img {
     color:white;
 }
 
-a {
-    flex-direction: row;
-    flex-wrap: wrap;
+.textwrapper h3{
+    display:block;
+
+}
+
+.textwrapper {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    position: relative;
+}
+
+.textwrapper .box {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    transition: all .5s linear;
+}
+
+.textwrapper:hover .box{
+    width:360px;
+    height:360px;
+}
+
+.box.left {
+    bottom:132px;
+    right:0px;
+}
+
+.box.corner {
+    bottom:0px;
+    right:0px;
+}
+
+.box.bottom {
+    bottom:20px;
+    right: 20px;
+}
+
+.images > div > a {
+    display:block;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
   
 footer p a { 
